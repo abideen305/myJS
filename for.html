@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FOR</title>
+    <script>
+var cityToCheck = prompt( "state  ur state" );   
+cityToCheck = cityToCheck.toLocaleLowerCase()
+var cleanestCities = ["Cheyenne", "Santa Fe", "Tucson", "Great Falls", "Honolulu"];
+
+var matchFound = false;
+for (var i = 0; i <= 4; i++){  
+if (cityToCheck === cleanestCities[i]) {
+      matchFound = true;
+      alert("It's one of the cleanest cities");
+  break;
+      
+ }
+ 
+if (matchFound === false) {
+alert("It's not on the list");
+  }
+
+
+}
+
+  
+
+  
+    </script>
+</head>
+<body>
+    <select name="" id="">
+    
+    <option value=""> GHN</option>
+    <option value=""> NIG</option>
+    <option value=""> USA</option>
+    <option value=""> ITY</option>
+
+
+
+    </select> 
+</body>
+</html>
